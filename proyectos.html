@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Renato Johnson</title>
+  <link rel="stylesheet" href="./public/css/style.css">
+  <link type="image/png" sizes="96x96" rel="icon" href="./public/img/icons8-maletín-96.png">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Sobre mí</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="index.html#habilidades">Habilidades</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main>
+    <h1>Mis Proyectos</h1>
+    <section class="projects">
+      <div class="project" onmouseover="highlight(this)" onmouseout="removeHighlight(this)">
+        <img src="./public/img/Captura de pantalla 2024-11-17 152135.png" alt="Proyecto 1">
+        <h3>Proyecto E-commerce</h3>
+        <p>Descripción breve del proyecto.</p>
+        <p>Tecnologías utilizadas: Node.js, JavaScript, MySQL, EJS(motor de plantillas), React, Sequelize, CSS</p>
+        <a href="https://github.com/renatojp15/e-commerce_renato_johnson.git" target="_blank">Repositorio del Proyecto</a>
+      </div>
+      <div class="project" onmouseover="highlight(this)" onmouseout="removeHighlight(this)">
+        <img src="./public/img/Captura de pantalla 2024-11-17 154731.png" alt="Proyecto 2">
+        <h3>DashboardView</h3>
+        <p>Descripción breve del proyecto.</p>
+        <p>Tecnologías utilizadas: Node.js, JavaScript, React, CSS</p>
+        <a href="https://github.com/renatojp15/react_frontEnd.git" target="_blank">Repositorio del Proyecto</a>
+      </div>
+      <div class="project" onmouseover="highlight(this)" onmouseout="removeHighlight(this)">
+        <img src="./public/img/Captura de pantalla 2024-11-17 172751.png" alt="Proyecto 3">
+        <h3>Layout Master</h3>
+        <p>Descripción breve del proyecto.</p>
+        <p>Tecnologías utilizadas: HTML, CSS</p>
+        <a href="https://github.com/renatojp15/grupo_3_HorizonMarket.git" target="_blank">Repositorio del Proyecto</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Renato Johnson Preciado. Todos los derechos reservados.</p>
+  </footer>
+  <script src="./public/js/script.js"></script>
+</body>
+</html>
