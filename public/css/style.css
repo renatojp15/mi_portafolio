@@ -206,3 +206,15 @@ footer p {
   font-size: 14px;
   color: white;
 }
+
+
+@media(min-width:480px){
+  .cv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cv img{
+    width: 50%;
+  }
+}
